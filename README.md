@@ -16,8 +16,8 @@ NEO
 You can scroll with arrows, pageUp, pageDown, home and end or you can use Vi keybindings.
 
 Many thanks to people behind these repositories:
-- github.com/gdamore/tcell
-- github.com/rivo/tview
-- github.com/dustin/go-humanize
+- (github.com/gdamore/tcell)
+- (github.com/rivo/tview)
+- (github.com/dustin/go-humanize)
 
 Data is from coinmarketcap.com API
