@@ -71,7 +71,8 @@ func checkStatus(v string, table *tview.Table, r int, c int) {
 }
 //Convert big numbers to ints so humanize can be used
 func toInt(s string) int64 {
-	s = strings.TrimSuffix(s, ".0")
+	sl := strings.Split(s, ".")
+	s = sl[0]
 	num, err := strconv.ParseInt(s, 10, 64)
 	if err != nil {
 		fmt.Println("error converting string to int", err)
